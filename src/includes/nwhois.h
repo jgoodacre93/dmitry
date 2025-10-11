@@ -15,7 +15,7 @@ char td[10];
 char query[128];
 int linetodo;   /* This is used to symbolise to nic_format_buff() that there is a line still to format */
 extern char outputfile[64];
-extern void file_open();
+extern int file_open();
 extern void file_close();
 
 

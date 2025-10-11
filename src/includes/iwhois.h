@@ -29,7 +29,7 @@ int ip_format_buff();
 int linetodo;   /* This is used to symbolise to ip_format_buff() that there is a line still to format */
 char query[26];
 extern char outputfile[64];
-extern void file_open();
+extern int file_open();
 extern void file_close();
 
 char *ip_whois_hosts[] = {

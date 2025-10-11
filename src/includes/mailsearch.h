@@ -8,7 +8,7 @@ extern void sendData();
 extern int get_host();
 extern void tcp_sockdcon();
 extern char outputfile[64];
-extern void file_open();
+extern int file_open();
 extern void file_close();
 extern void print_line();
 extern int tcp_sock;
